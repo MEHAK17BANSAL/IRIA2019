@@ -1,0 +1,6 @@
+1|Hotel Check-In |1|2017-04-10 12:00|2017-04-10 13:00|O|1|A. People's National Anthem \nB. Welcome Address by CEO \nC. Lamp lighting and Ganesh Vandana \nD. CMD address \nE. Long Service Award \nF. Special Performance \nG. Surprise Act \nH. DJ, Cocktails & Dinner
+2|Gala Night [Dress Code: Business Formal]|1|2017-04-10 19:00|2017-04-12 22:30|O|1|Lamp Lighting by CMD, Theme AV & Opening
+3|DHFL Conference Day 1 [Dress Code: Denims with White Shirt and Blue Jacket with DHFL Badge]|2|2017-04-11 09:30|2017-04-11 11:30|O|1|Lamp Lighting by CMD, Theme AV & Opening
+4|Founder's Day Celebration & Excellence Awards Night [Dress Code: Business Formals]|3|2017-04-11 19:30|2017-04-11 21:00|O|1| CMD address
+5|DHFL Conference Day 2 [Dress Code: Denims with DHFL T-shirt and Round Badge]|3|2017-04-12 09:30|2017-04-12 12:00|O|1|CEO address
+6|DHFL Insurance Awards [Dress Code: Business formals]|4|2017-04-12 19:30|2017-04-12 21:30|O|1|Session on Fixed Deposit Business by Mr. Pradeep Bhadauria

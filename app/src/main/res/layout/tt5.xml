@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:text="Songkran Festival Guide"
+            android:textColor="@color/nblue"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="Songkran Festival :"
+                android:textColor="@color/nblue" />
+
+            <TextView
+                android:id="@+id/twooo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/one"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="April 13th to 15th, 2018"
+                android:textColor="@color/nblue" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="Songkran Festival is celebrated annually in Thailand as the beginning of the Thai New Year. Songkran is derived from the Sanskrit word samkranti, meaning transformation or change and is borrowed from the Hindu harvest festival 'Makar Sankranti' to mark the arrival of Spring. The holiday season for Songkran in Thailand will begin on Friday, April 13, 2018 popularly known as the Maha Songkran day and will end on Sunday, April 15, 2018 called as Wan Thaloengsok. The Thai Government has declared a 5-day holiday in view of the water fights that extend for about a week."
+                android:textColor="@color/nblack" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="Festivities and Traditions :"
+                android:textColor="@color/nblue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="•	People greet `Sawasdee Pee Mai!' which means 'Happy New Year' in the Thai language."
+                android:textColor="@color/nblack" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="•	The first day of the festival is an exuberant celebration with processions of Buddha images."
+                android:textColor="@color/nblack" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="•	Songkran is celebrated as a water festival by both the young and old."
+                android:textColor="@color/nblack" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="•	Major streets are converted into water fight arenas for about a week."
+                android:textColor="@color/nblack" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="•	Festivities include donning the traditional Thai dress, participating in traditional parades, merit-making, visiting temples, offering food to Buddhist monks, creating sand pagodas and bathing Buddha statues."
+                android:textColor="@color/nblack" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="•	Songkran is also very popular with visitors. Many tourists plan their holidays around this unique event."
+                android:textColor="@color/nblack" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="•	Most of the leading shopping arcades usually remain open, but offices, banks, street bazaars, restaurants and family-run shops observe holidays during the festivities."
+                android:textColor="@color/nblack" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="Do's and Don'ts :"
+                android:textColor="@color/nblue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="•	To remain dry, avoid the water fight arenas and stay indoors"
+                android:textColor="@color/nblack" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="•	Ensure you wear comfortable clothing along with footwear with a firm grip"
+                android:textColor="@color/nblack" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="•	For local travel, opt for AC public transportation
+"
+                android:textColor="@color/nblack" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="•	Be wary of drunken drivers and road accidents"
+                android:textColor="@color/nblack" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="•	Leave valuables in your hotel room"
+                android:textColor="@color/nblack" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="•	Carry your mobiles, wallet and essentials in a zip-lock"
+                android:textColor="@color/nblack" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="•	Watch your belongings"
+                android:textColor="@color/nblack" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="•	Carry an extra pair of clothes in case you get wet"
+                android:textColor="@color/nblack" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="•	Keep yourself hydrated"
+                android:textColor="@color/nblack" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="•	Play safe with clean water, permitted colours and equipment"
+                android:textColor="@color/nblack" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="•	Respect people's privacy"
+                android:textColor="@color/nblack" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="•	Do not drink and drive"
+                android:textColor="@color/nblack" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="•	Do not throw water at motorcycles, babies, monks and elders"
+                android:textColor="@color/nblack" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

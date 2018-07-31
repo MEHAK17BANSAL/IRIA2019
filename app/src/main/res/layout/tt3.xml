@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:visibility="gone"
+        android:text="Transportation from airport to hotel:"
+        android:textColor="@color/ngreen"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:text="Transport has been arranged from the Bangkok airport to the hotel. Please look for DHFL representative at the airport."
+            android:textColor="@color/nblack" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:text="For any assistance required at the airport or hotel; please contact:"
+            android:textColor="@color/nblack"
+            />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:text="Mahendar Rawat"
+            android:textColor="@color/ngreen" />
+
+        <TextView
+            android:id="@+id/twoo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/one"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:text="mahendar.rawat@dhfl.com"
+            android:textColor="@color/nblack"
+            />
+
+        <TextView
+            android:id="@+id/c1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/twoo1"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:text="+91 9820544011"
+            android:textColor="@color/nblack"
+            />
+
+        <LinearLayout
+            android:id="@+id/c2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@drawable/phonee1"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="CALL"
+                android:visibility="gone"
+                android:textColor="@color/ngreen"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+    <View
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"></View>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/one1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:text="Mehul Desai"
+            android:textColor="@color/ngreen" />
+
+        <TextView
+            android:id="@+id/twoo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/one1"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:text="mehul.desai@dhfl.com"
+            android:textColor="@color/nblack"
+            />
+
+        <TextView
+            android:id="@+id/c3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/twoo2"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:text="+91 9820768379"
+            android:textColor="@color/nblack"
+            />
+
+        <LinearLayout
+            android:id="@+id/c4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@drawable/phonee1"
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+    <View
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/darker_gray"
+
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"></View>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/one3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:text="Shailendra Dubey"
+            android:textColor="@color/ngreen" />
+
+        <TextView
+            android:id="@+id/twoo3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/one3"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:text="shailendra.dubey@dhfl.com"
+            android:textColor="@color/nblack"
+            />
+
+        <TextView
+            android:id="@+id/c5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/twoo3"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:text="+91 9819100454"
+            android:textColor="@color/nblack"
+            />
+
+        <LinearLayout
+            android:id="@+id/c6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@drawable/phonee1"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+    <View
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"></View>
+
+</LinearLayout>
+</ScrollView>

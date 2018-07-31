@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Dear Colleagues,"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/heading2"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="326dp"
+            android:text="@string/heading3"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="234dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="236dp"
+            android:text="The venue for the conference is the
+Postgraduate Institute of Medical Education and
+Research(PGIMER)which is located in
+Sector-12.Founded in 1962,the PGIMER has a
+rich legacy in reserach and education.It is
+designated as one of the Institutes of National
+Importance by the Goverment of India.The
+Institute has produced several Padma Shree
+awardees which is the fourth highest civilian
+award in the Republic of India.The resident
+doctors and faculty members of the Institute bag
+several national and international academic
+awards every year.
+"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:text="The organizing committee has members with
+vast experience in organizing academic
+conferences.The scientific committee is
+entrusted with the responsibility of ensuring the
+the conference meets the expectations of
+resident doctors as well as practicing
+radiologists.We assure you of a great learning
+experience along the warm hospitality and look
+forward to your active participation."
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="130dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="96dp"
+            android:background="@drawable/circle21"
+            android:src="@drawable/menu2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="78dp"
+            android:layout_marginTop="21dp"
+            android:text="Dr.N.Khandelwal" />
+
+        <TextView
+            android:layout_width="142dp"
+            android:layout_height="36dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="42dp"
+            android:text="Organizing Chairman" />
+
+        <Button
+            android:layout_width="183dp"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="34dp"
+            android:layout_marginEnd="11dp"
+            android:background="@color/grey" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="96dp"
+            android:background="@drawable/circle21"
+            android:src="@drawable/menu2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="49dp"
+            android:layout_marginTop="21dp"
+            android:text="Dr.Bhupdendra Ahuja" />
+
+        <TextView
+            android:layout_width="142dp"
+            android:layout_height="36dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="42dp"
+            android:text="Organizing Chairman" />
+
+        <Button
+            android:layout_width="183dp"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="34dp"
+            android:layout_marginEnd="11dp"
+            android:background="@color/grey" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="96dp"
+            android:background="@drawable/circle21"
+            android:src="@drawable/menu2" />
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="42dp"
+            android:layout_marginTop="19dp"
+            android:text="Dr.Akshay K.Saxena" />
+
+        <TextView
+            android:layout_width="142dp"
+            android:layout_height="36dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="42dp"
+            android:text="Organizing Secretary" />
+
+        <Button
+            android:layout_width="183dp"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="34dp"
+            android:layout_marginEnd="11dp"
+            android:background="@color/grey" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="96dp"
+            android:background="@drawable/circle21"
+            android:src="@drawable/menu2" />
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="42dp"
+            android:layout_marginTop="19dp"
+            android:text="Dr.C.Amarnath" />
+
+        <TextView
+            android:layout_width="142dp"
+            android:layout_height="36dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="42dp"
+            android:text="Organizing Secretary" />
+
+        <Button
+            android:layout_width="183dp"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="34dp"
+            android:layout_marginEnd="11dp"
+            android:background="@color/grey" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="96dp"
+            android:background="@drawable/circle21"
+            android:src="@drawable/menu2" />
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="42dp"
+            android:layout_marginTop="19dp"
+            android:text="Dr.Amit Jain" />
+
+        <TextView
+            android:layout_width="142dp"
+            android:layout_height="36dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="42dp"
+            android:text="Treasurer" />
+
+        <Button
+            android:layout_width="183dp"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="34dp"
+            android:layout_marginEnd="11dp"
+            android:background="@color/grey" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="96dp"
+            android:background="@drawable/circle21"
+            android:src="@drawable/menu2" />
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="42dp"
+            android:layout_marginTop="19dp"
+            android:text="Dr.Gurdeep Singh" />
+
+        <TextView
+            android:layout_width="142dp"
+            android:layout_height="36dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="42dp"
+            android:text="Treasurer" />
+
+        <Button
+            android:layout_width="183dp"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="34dp"
+            android:layout_marginEnd="11dp"
+            android:background="@color/grey" />
+    </RelativeLayout>
+
+</LinearLayout>
+</ScrollView>

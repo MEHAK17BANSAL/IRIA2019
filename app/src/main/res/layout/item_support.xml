@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+
+    <!-- <com.mikhaellopez.circularimageview.CircularImageView
+         android:id="@+id/iv_speaker"
+         android:layout_width="@dimen/image_size"
+         android:layout_height="@dimen/image_size"
+         android:layout_gravity="center_vertical"
+         android:layout_margin="3dp"
+         android:contentDescription="@string/speaker"
+         android:scaleType="fitCenter"
+         app:border="false"
+         app:border_width="0dp"
+         tools:ignore="MissingRegistered" />-->
+    <ImageView
+        android:id="@+id/iv_speaker1"
+        android:layout_width="@dimen/image_size"
+        android:layout_height="@dimen/image_size"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/round_logo"
+
+        android:contentDescription="@string/speaker" />
+
+        <TextView
+            android:id="@+id/tv_time1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="95dp"
+            android:text="Travel"
+            android:drawablePadding="5dp"
+            android:paddingEnd="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingStart="5dp"
+            android:paddingTop="5dp"
+            android:textAppearance="@android:style/TextAppearance.Small"
+            android:textColor="@color/conf_purple"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_title1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:layout_marginLeft="95dp"
+            android:layout_below="@+id/tv_time1"
+            android:maxLines="3"
+            android:text="Mr. Avinash Waghchaure"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="5dp"
+            android:textColor="#000000"
+            android:paddingEnd="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingStart="5dp"
+            android:textAppearance="@android:style/TextAppearance.Small"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tv_title2"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="95dp"
+            android:layout_below="@+id/tv_title1"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:text="M No. : +91 9619476977"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="5dp"
+            android:textColor="#000000"
+            android:paddingEnd="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingStart="5dp"
+            android:textAppearance="@android:style/TextAppearance.Small"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tv_title3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:layout_marginLeft="95dp"
+            android:layout_below="@+id/tv_title2"
+            android:maxLines="3"
+            android:text="Email: avinash.waghchaure@dhfl.com"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="5dp"
+            android:textColor="#000000"
+            android:paddingEnd="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingStart="5dp"
+            android:textAppearance="@android:style/TextAppearance.Small"
+            android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/iv_speaker1s"
+        android:layout_width="@dimen/image_size"
+        android:layout_height="@dimen/image_size"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/round_logo"
+
+        android:contentDescription="@string/speaker" />
+
+    <TextView
+        android:id="@+id/tv_time2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="95dp"
+        android:text="Travel"
+        android:drawablePadding="5dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="5dp"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@color/conf_purple"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tv_title4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:layout_marginLeft="95dp"
+        android:layout_below="@+id/tv_time2"
+        android:maxLines="3"
+        android:text="Mr. Avinash Waghchaure"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="5dp"
+        android:textColor="#000000"
+        android:paddingEnd="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingStart="5dp"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_title5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:layout_marginLeft="95dp"
+        android:layout_below="@+id/tv_title4"
+        android:maxLines="3"
+        android:text="M No. : +91 9619476977"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="5dp"
+        android:textColor="#000000"
+        android:paddingEnd="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingStart="5dp"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textStyle="bold" />
+    <!--<CheckBox
+        android:id="@+id/cb_favourite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:button="@drawable/ic_plan"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:padding="5dp" />-->
+
+    <!-- <ImageView
+         android:id="@+id/ib_right_arrow"
+         android:layout_width="wrap_content"
+         android:layout_height="60dp"
+         android:layout_alignParentEnd="true"
+         android:layout_alignParentRight="true"
+         android:layout_alignParentTop="true"
+         android:background="@android:color/transparent"
+         android:contentDescription="@string/empty"
+         android:padding="5dp"
+         android:src="@drawable/right" />-->
+
+</RelativeLayout>
+
+
+
+

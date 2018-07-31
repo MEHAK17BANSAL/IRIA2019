@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">DHFL ABM 2018</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open"></string>
+    <string name="DEVELOPER_KEY">AIzaSyCqvneAPAkS7Lb3578h-RTw6DeZyY8yIj0</string>
+    <string name="drawer_close"></string>
+    <string name="video_list_title">Title</string>
+    <string name="player_style">Player Style</string>
+    <string name="def">Default</string>
+    <string name="minimal">Minimal</string>
+    <string name="chromeless">Chromeless</string>
+    <string name="play">PLAY</string>
+    <string name="pause">PAUSE</string>
+    <string name="error_init_failure">Initialization failure: Unable to play video</string>
+    <string name="youtube_activity_fragment_placeholder">The YouTube Fragment can be placed anywhere
+        in a layout. You could use this space to describe the video, load some comments or anything else you can think of.
+    The benefit of using a Fragment is that your hosting Activity can be of any type.</string>
+    <string name="youtube_activity_placeholder">If you don\'t want to use a Fragment,
+        you can simply add a YouTubePlayerView to your layout file and handle it the same way.</string>
+    <string name="empty"></string>
+    <string name="Enter_Number">Enter Mobile Number</string>
+    <string name="OTP_Number"></string>
+    <string name="speaker">Speaker</string>
+    <string name="rss_error">RSS error. Try again later</string>
+    <string name="network_unavailable">Network connection is unavailable</string>
+    <string name="place">Place</string>
+    <string name="menu_item_clear_memory_cache">Clear memory cache</string>
+    <string name="menu_item_clear_disc_cache">Clear disc cache</string>
+    <string name="menu_item_pause_on_scroll">Pause on scroll</string>
+    <string name="menu_item_pause_on_fling">Pause on fling</string>
+    <string name="descr_image">Image</string>
+    <string name="ac_name_image_pager">Image Pager Example</string>
+    <string name="ac_name_image_grid">Image Grid Example</string>
+    <string name="title_activity_video_playing">VideoPlayingActivity</string>
+    <string name="rating">Rating</string>
+    <string name="rating_lecture">Rate lecture</string>
+    <string name="rating_text">Lecture rated (%.2f)</string>
+    <string name="lectures">Lectures</string>
+    <string name="heading">Department of Radiodiagnosis \u0026 Imaging,</string>
+    <string name="already_registered">Device is already registered on server.</string>
+    <string name="gcm_registered">From GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="gcm_message">From GCM: you got message!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+
+    <string-array name="days_of_week">
+        <item>SUN</item>
+        <item>MON</item>
+        <item>TUE</item>
+        <item>WEN</item>
+        <item>THU</item>
+        <item>FRI</item>
+        <item>SAT</item>
+    </string-array>
+    <string-array name="navigation_items">
+        <item>Agenda</item>
+        <item>Speakers</item>
+        <item>Do\'s and Don\'t\'s</item>
+        <item>Hotel</item>
+        <item>Glimpses of 2016</item>
+        <item>Videos</item>
+        <item>Quiz</item>
+        <item>Quiz Leaderboard</item>
+        <item>Support</item>
+        <!--<item>Location</item>-->
+    </string-array>
+    <!--<string-array name="image_ids">
+        <item>@drawable/image_1</item>
+        <item>@drawable/image_2</item>
+        <item>@drawable/image_3</item>
+        <item>@drawable/image_4</item>
+        <item>@drawable/image_5</item>
+        <item>@drawable/image_6</item>
+        <item>@drawable/image_7</item>
+        <item>@drawable/image_8</item>
+        <item>@drawable/image_9</item>
+        <item>@drawable/image_1</item>
+        <item>@drawable/image_2</item>
+        <item>@drawable/image_3</item>
+        <item>@drawable/image_4</item>
+        <item>@drawable/image_5</item>
+        <item>@drawable/image_6</item>
+        <item>@drawable/image_7</item>
+        <item>@drawable/image_8</item>
+        <item>@drawable/image_9</item>
+    </string-array>-->
+    <string name="about_conf"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus augue nibh, hendrerit vitae sagittis a, volutpat ac leo. Duis orci nulla, placerat ut lobortis ut, ornare sit amet ligula. Sed accumsan cursus risus nec convallis. Suspendisse sed ligula sollicitudin, fermentum metus et, egestas mi. Curabitur elit nisi, sagittis sit amet dolor et, elementum ultricies est. Donec a ex nec arcu consectetur tempus non sed ipsum. Sed imperdiet dolor quis felis rutrum, eget facilisis justo aliquam. Cras mattis viverra lacus et blandit. Sed at pellentesque augue, ut tempor nisl.
+\n\n
+Sed eu faucibus nulla. Suspendisse commodo, sem ut hendrerit viverra, sem libero cursus nibh, vitae ultrices massa neque sit amet est. Praesent in nisl ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas libero metus, mollis id ligula non, ornare egestas velit. Nam rutrum ipsum eros, ut posuere nulla tristique ut. Etiam lacus tortor, eleifend at magna vitae, mollis viverra ex. Sed porta risus vel nibh porta auctor. Donec laoreet pulvinar nisi, vitae luctus tellus euismod id. Fusce tempor lobortis ex. Cras scelerisque fermentum odio, in pellentesque elit dictum at. Donec metus purus, tempus ac lectus ac, ornare faucibus ligula.
+\n\n
+Etiam vel finibus sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas in interdum neque. Duis mattis arcu eget tellus sagittis, eu tincidunt est fermentum. Nullam consequat finibus hendrerit. Nulla id elit pharetra, laoreet purus fringilla, pulvinar velit. Integer ornare sapien nulla, sed sagittis mi bibendum quis. Curabitur quam nulla, cursus accumsan enim eu, molestie congue odio. Morbi tempus pretium lectus, vel lacinia arcu posuere et. Nulla vel blandit metus. 
+\n\n
+ Mauris sagittis mauris sed auctor convallis. Nulla condimentum, ipsum sed tempus vehicula, nisi quam commodo dolor, quis tincidunt odio enim nec nunc. Aliquam pellentesque leo ipsum. Aliquam lobortis neque eget nisi varius hendrerit. Phasellus eget erat luctus arcu faucibus volutpat. Nulla nec tempor tellus. Pellentesque ac justo sed est rhoncus convallis eget ullamcorper tellus. Mauris feugiat erat at ex iaculis, sagittis scelerisque quam lobortis. Duis blandit pulvinar bibendum. Aliquam suscipit rhoncus purus id rutrum. Curabitur tincidunt est in felis consequat, sit amet hendrerit odio fermentum. Nullam vel dolor eros. Morbi sit amet interdum leo. Proin euismod, nisl non varius iaculis, eros lorem pellentesque purus, sed cursus justo leo mollis tellus. Curabitur ut enim imperdiet, sagittis odio ut, consectetur turpis.
+\n\n
+Morbi lacinia facilisis velit sed tempus. Donec lectus diam, porttitor in orci ac, rutrum varius diam. Suspendisse finibus pellentesque lacus, in laoreet odio. Vivamus et dapibus neque. Praesent nec viverra lacus. Sed sem velit, tincidunt facilisis egestas eget, consectetur non magna. Nulla eget elementum tortor, et luctus leo. Nam id congue diam. Vivamus pharetra, risus ac hendrerit ornare, ligula dui feugiat lorem, ut blandit tellus magna ut elit. Sed luctus ultricies accumsan.
+\n\n
+Nullam vitae ornare dui, sit amet placerat nisi. Fusce consectetur mi elit, vitae commodo risus imperdiet bibendum. Duis ut ornare ligula. Maecenas varius mauris metus, ut dictum tortor commodo sed. Etiam placerat ullamcorper mauris, et cursus ex vehicula commodo. Donec bibendum euismod pharetra. Vivamus faucibus, sem at dapibus euismod, erat arcu pulvinar urna, vel lobortis turpis mi ut neque. </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_single_view">SingleViewActivity</string>
+    <string name="txt2"><![CDATA[Check out on <b>Saturday, April 14, 2018 at 10 am or 5 hours</b> prior to your flight departure time, whichever is earlier.]]></string>
+    <string name="txt1"><![CDATA[Check-in at the <b>Anantara on Wednesday, April 11, 2018</b> as per your flight timings]]></string>
+    <string name="txt3"><![CDATA[For any assistance at <b>Avani &amp; Anantara Riverside,</b> please contact: ]]></string>
+
+    <string name="heading2">It is our pleasure to inform you that the 72nd
+                            Annual Conference of the Indian Radiological \u0026
+                            Imaging Association (IRIA) will be hosted by the
+                            Chandigarh Chapter of IRIA(ChIRIA) on January
+                            17-20,2019.We extend you a warm invitation to
+                            attend this academic fiesta.
+    </string>
+    <string name="heading3"><p>Chandigarh,also known as \"City Beautiful\",is pictuesquely located at the foothills of Shivaliks.It is considered as one of the best experiments in urban planning and modern architecture in India.The city has several tourist attractions like Rock Garden,Sukhna Lake,Rose Garden and is in close proximity to several other tourist post like Shimla,Kasauli,Parwanoo,Manali etc.We are also planning a \"Run for the girl child\" at the Sukhna Lake for the delegates along with city residents for rising public awarness about the radiologists".Delegates travelling from oversea can use the opportunity to visit Taj Mahal,Golden Temple and Jaipur.Chandigarh is well connected to major Indian cities by road,air and rail network.In addition,flight connectivity with many more international destinations is envisaged in near future.</p>
+
+    </string>
+    <string name="heading4">You can sumit an abstract containing upto 250
+words(except title,references \u0026 author details. </string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" xmlns:tools="http://schemas.android.com/tools">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/iv_user"
+        android:layout_width="@dimen/image_size"
+        android:layout_height="@dimen/image_size"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:contentDescription="@string/empty"
+        android:scaleType="fitCenter"
+        app:border="false"
+        app:border_width="0dp"
+        tools:ignore="MissingRegistered" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/iv_user"
+        android:layout_toRightOf="@id/iv_user"
+        android:drawableLeft="@drawable/ic_agenda"
+        android:drawablePadding="5dp"
+        android:drawableStart="@drawable/ic_agenda"
+        android:paddingEnd="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="5dp"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@color/conf_purple"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_time"
+        android:layout_toEndOf="@id/iv_user"
+        android:layout_toRightOf="@id/iv_user"
+        android:paddingBottom="5dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingStart="5dp"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@color/conf_purple"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_user"
+        android:layout_toEndOf="@id/iv_user"
+        android:layout_toRightOf="@id/iv_user"
+        android:textAppearance="@android:style/TextAppearance.Small" />
+
+</RelativeLayout>

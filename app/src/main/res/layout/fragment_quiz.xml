@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B1FFFFFF"
+    tools:context="com.brandappz.dhfl.event.fragments.QuizFragment">
+    <RelativeLayout
+        android:id="@+id/ss"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/nnorange"></View>
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="35dp"
+            android:background="@drawable/arrowtop2" />
+
+
+    </RelativeLayout>
+     <LinearLayout
+         android:layout_below="@+id/ss"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent" >
+             <WebView
+                 android:id="@+id/webvu"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent" />
+     </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <dimen android:name="navigation_drawer_width">250dp</dimen>
+</selector>

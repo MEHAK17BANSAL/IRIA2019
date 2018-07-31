@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+      <shape>
+        <solid
+            android:color="@color/conf_purple" />
+      </shape>
+    </item>
+    <item>
+      <shape>
+        <size android:height="3dp"/>
+       <!-- <solid
+            android:color="@color/conf_yellow" />-->
+      </shape>
+    </item>
+</layer-list>
