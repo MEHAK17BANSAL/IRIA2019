@@ -10,14 +10,14 @@
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:background="@android:color/black"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
         app:popupTheme="@style/AppTheme.PopupOverlay"
         app:theme="@style/ToolbarColoredBackArrow">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
             >
 
@@ -56,10 +56,10 @@
                 android:src="@drawable/search22"/>
         </LinearLayout>
 
-            <Button
-                android:layout_width="wrap_content"
+            <View
+                android:layout_width="80dp"
                 android:layout_height="2dp"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="10dp"
                 android:background="@color/yellow"
                 android:layout_gravity="center"/>
 
@@ -69,9 +69,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="Home"
+            android:layout_marginBottom="10dp"
             android:background="@color/black"
             android:gravity="center"
-            android:layout_marginTop="7dp"
+            android:layout_marginTop="10dp"
             android:textColor="@android:color/white"
             android:textSize="30sp" />
         </LinearLayout>
@@ -79,9 +80,49 @@
     </android.support.v7.widget.Toolbar>
 
     <FrameLayout
+        android:id="@+id/layout_container_activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- TOP LAYOUT, THE GREEN ONE ON THE IMAGE -->
+            <LinearLayout
+                android:id="@+id/layout_top_activity_main"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="0.1"
+                android:background="@color/black"
+                android:orientation="vertical"></LinearLayout>
+
+            <!-- BOTTOM LAYOUT, THE BLUE ONE ON THE IMAGE -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="0.1"
+                android:background="@color/white">
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- THIS IS THE IMAGE I WANT TO POSITION -->
+        <Spinner
+            android:id="@+id/btn_play_radio"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:visibility="visible"
+            android:background="@drawable/spinnerxml" />
+
+
+        </FrameLayout>
+
+    <FrameLayout
         android:id="@+id/content"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
     </FrameLayout>
 </LinearLayout>

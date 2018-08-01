@@ -66,7 +66,7 @@
                     android:layout_width="35dp"
                     android:layout_height="35dp"
                     android:layout_marginLeft="30dp"
-                    android:background="@drawable/m1" />
+                    android:background="@drawable/home" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -94,7 +94,7 @@
                     android:layout_width="35dp"
                     android:layout_height="35dp"
                     android:layout_marginLeft="30dp"
-                    android:background="@drawable/m3" />
+                    android:background="@drawable/committee" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -153,7 +153,7 @@
                     android:layout_width="35dp"
                     android:layout_height="35dp"
                     android:layout_marginLeft="30dp"
-                    android:background="@drawable/m5" />
+                    android:background="@drawable/speakers" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -194,7 +194,7 @@
                     android:layout_width="35dp"
                     android:layout_height="35dp"
                     android:layout_marginLeft="30dp"
-                    android:background="@drawable/m4" />
+                    android:background="@drawable/scientific" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -231,7 +231,7 @@
                     android:layout_width="35dp"
                     android:layout_height="35dp"
                     android:layout_marginLeft="30dp"
-                    android:background="@drawable/m3" />
+                    android:background="@drawable/registeration" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -260,7 +260,7 @@
                     android:layout_width="35dp"
                     android:layout_height="35dp"
                     android:layout_marginLeft="30dp"
-                    android:background="@drawable/m44" />
+                    android:background="@drawable/news" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -312,7 +312,7 @@
                     android:layout_width="35dp"
                     android:layout_height="35dp"
                     android:layout_marginLeft="30dp"
-                    android:background="@drawable/m66" />
+                    android:background="@drawable/venue" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -340,7 +340,7 @@
                     android:layout_width="35dp"
                     android:layout_height="35dp"
                     android:layout_marginLeft="30dp"
-                    android:background="@drawable/m66" />
+                    android:background="@drawable/travel" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -368,7 +368,7 @@
                     android:layout_width="35dp"
                     android:layout_height="35dp"
                     android:layout_marginLeft="30dp"
-                    android:background="@drawable/m66" />
+                    android:background="@drawable/contact" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -389,7 +389,7 @@
                     android:layout_width="35dp"
                     android:layout_height="35dp"
                     android:layout_marginLeft="30dp"
-                    android:background="@drawable/m66" />
+                    android:background="@drawable/abstracts" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -411,7 +411,7 @@
                     android:layout_width="35dp"
                     android:layout_height="35dp"
                     android:layout_marginLeft="30dp"
-                    android:background="@drawable/m66" />
+                    android:background="@drawable/note" />
 
                 <TextView
                     android:layout_width="wrap_content"

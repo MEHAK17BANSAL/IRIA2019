@@ -19,14 +19,15 @@ import android.view.Gravity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.brandappz.alpcord.events.R;
 import com.brandappz.alpcord.events.constants.NavigationPositions;
-import com.brandappz.alpcord.events.fragments.AbstractFragment;
 import com.brandappz.alpcord.events.fragments.HomeFragment;
 import com.brandappz.alpcord.events.fragments.OrganizingCommitteeFragment;
 import com.brandappz.alpcord.events.fragments.GalleryFragment;
@@ -54,6 +55,8 @@ public class MainActivity extends AppCompatActivity {
     private CharSequence drawerTitle;
     private CharSequence title;
     private TextView htitle;
+    private FrameLayout frameLayout;
+    private Spinner spinner;
     private boolean isDualPane;
     private LinearLayout quiz, main, agenda, doanddont, speaker, photovideo, hotallocation, tambola, flightticket,contactus,abs;
 
@@ -84,7 +87,8 @@ public class MainActivity extends AppCompatActivity {
         editor.commit();
 
         htitle = (TextView) findViewById(R.id.title);
-
+        spinner=findViewById(R.id.btn_play_radio);
+        frameLayout=findViewById(R.id.layout_container_activity_main);
         drawer = (DrawerLayout) findViewById(R.id.drawer);
         main = (LinearLayout) findViewById(R.id.menu);
         quiz = (LinearLayout) findViewById(R.id.quiz);
@@ -170,7 +174,6 @@ public class MainActivity extends AppCompatActivity {
         abs.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                drawer.closeDrawer(Gravity.LEFT);
                 positions(12);
             }
         });
@@ -225,10 +228,6 @@ public class MainActivity extends AppCompatActivity {
         else if(pos==11){
             menuicon.setBackgroundResource(R.drawable.menu22);
         }
-        else if(pos==12){
-            menuicon.setBackgroundResource(R.drawable.menu22);
-        }
-
 
     }
     public void positions(int position) {
@@ -238,10 +237,12 @@ public class MainActivity extends AppCompatActivity {
                 menuicon.setBackgroundResource(R.drawable.menu22);
                 //  menuicon.setColorFilter(getResources().getColor(R.color.blue));
                 content = new HomeFragment();
+                frameLayout.setVisibility(View.INVISIBLE);
                 htitle.setText("WELCOME MESSAGE");
                 break;
             case 2:
                 menuicon.setBackgroundResource(R.drawable.menu22);
+                frameLayout.setVisibility(View.VISIBLE);
                 content = new OrganizingCommitteeFragment();
                 htitle.setText("ORGANIZING COMMITTEE");
                 break;
@@ -267,7 +268,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case 6:
                 menuicon.setBackgroundResource(R.drawable.menu22);
-                content = new Flightframent();
+                content = new OfficeBearersFragment();
                 htitle.setText("OFFICE BEARERS");
                 break;
             case 7:
@@ -295,9 +296,8 @@ public class MainActivity extends AppCompatActivity {
                 htitle.setText("CONTACT US");
                 break;
             case 12:
-                menuicon.setBackgroundResource(R.drawable.menu22);
-                content = new AbstractFragment();
-                htitle.setText("ABSTRACTS");
+               Intent intent=new Intent(MainActivity.this,AbstractActivity.class);
+               startActivity(intent);
                 break;
 
 
