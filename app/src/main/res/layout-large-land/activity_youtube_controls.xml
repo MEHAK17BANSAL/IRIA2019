@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.brandappz.dhfl.event.activities.YouTubeActivity">
+    tools:context="com.brandappz.alpcord.events.activities.YouTubeActivity">
 
     <com.google.android.youtube.player.YouTubePlayerView
         android:id="@+id/youTubePlayerView"

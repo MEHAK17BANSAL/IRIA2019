@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="1dp"
+    android:padding="16dp"
+    android:background="@color/black">
+
+    <RelativeLayout
+        android:id="@+id/button1"
+        android:layout_width="48dp"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_height="48dp">
+        <ImageView
+            android:layout_width="36dp"
+            android:background="@drawable/ic_keyboard_arrow_up_black_24dp"
+            android:layout_height="36dp"></ImageView>
+    </RelativeLayout>
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/textview"
+       android:padding="8dp"
+       android:textColor="@color/white"
+       android:textSize="20sp"
+       android:text="This is item with child"
+       android:layout_toLeftOf="@id/button1"
+       android:layout_alignParentTop="true"
+       />
+    <com.github.aakira.expandablelayout.ExpandableLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/expandablelayout"
+        android:layout_below="@id/textview"
+        android:orientation="vertical"
+        app:ael_duration="400"
+        app:ael_expanded="false"
+        app:ael_interpolator="bounce"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textviewchild"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:text="This is child item"
+            android:layout_toLeftOf="@id/button1"
+            android:layout_alignParentTop="true"
+            />    </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+</RelativeLayout>

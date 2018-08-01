@@ -4,7 +4,7 @@
     android:id="@+id/activity_quiz"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.brandappz.dhfl.event.activities.QuizActivity">
+    tools:context="com.brandappz.alpcord.events.activities.QuizActivity">
 
 
         <WebView

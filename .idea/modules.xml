@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ConferenceApp.iml" filepath="$PROJECT_DIR$/ConferenceApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IRIA2019.iml" filepath="$PROJECT_DIR$/IRIA2019.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

@@ -5,7 +5,7 @@ android {
     compileSdkVersion 26
     useLibrary 'org.apache.http.legacy'
     defaultConfig {
-        applicationId "com.brandappz.dhfl.event"
+        applicationId "com.brandappz.alpcord.events"
         minSdkVersion 21
         targetSdkVersion 26
         multiDexEnabled true
@@ -93,4 +93,6 @@ dependencies {
     compile 'com.squareup.retrofit:retrofit:1.5.0'
     compile 'com.android.support:support-v4:26.0.1'
     compile 'de.hdodenhof:circleimageview:2.2.0'
+    implementation 'com.android.support:recyclerview-v7:26.0.1'
+    implementation 'com.github.aakira:expandable-layout:1.6.0@aar'
 }

@@ -19,15 +19,17 @@
         android:text="Dear Delegates,"
         android:textStyle="bold"
         android:textColor="@color/black"
-        android:textSize="15dp"/>
+        android:textSize="18dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
         android:orientation="vertical">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:textSize="15dp"
             android:text="We are pleased to share with you that the
 organizers of the 72nd Annual Conference of
@@ -45,6 +47,7 @@ the following important information."/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
         android:orientation="horizontal">
 
         <ImageView
@@ -54,12 +57,15 @@ the following important information."/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15dp"
             android:text="Rooms will be booked subject to availability."/>
     </LinearLayout>
 
     <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
             android:orientation="horizontal">
 
         <ImageView
@@ -69,6 +75,8 @@ the following important information."/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15dp"
             android:text="The organizers are only facilitating
 discounted rates for the delegates.If you are
 getting lower rates from any other portal,
@@ -78,6 +86,7 @@ please inform the organizers of the same."/>
     <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
             android:orientation="horizontal">
 
             <ImageView
@@ -87,6 +96,8 @@ please inform the organizers of the same."/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="@color/black"
                 android:text="Full refund of money will be done until 30
 September 2018 for any cancellations."/>
         </LinearLayout>
@@ -95,6 +106,7 @@ September 2018 for any cancellations."/>
     <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
             android:orientation="horizontal">
 
             <ImageView
@@ -104,6 +116,8 @@ September 2018 for any cancellations."/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="15dp"
                 android:text="Thereafter,refunds will be subject to the
 policy of individual hotels and delegates  will
 need to contact the concerned hotel."/>
@@ -112,6 +126,7 @@ need to contact the concerned hotel."/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
         android:orientation="horizontal">
 
         <ImageView
@@ -121,6 +136,8 @@ need to contact the concerned hotel."/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="@color/black"
             android:text="The rental charge will be inclusive of the
 currently applicable taxes.Any changes in
 the tex structure will have to be dealt by the
@@ -129,6 +146,7 @@ guests/delegates directly with the hotel."/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
         android:orientation="horizontal">
 
         <ImageView
@@ -138,6 +156,8 @@ guests/delegates directly with the hotel."/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15dp"
             android:text="All bookings to be done through website only
 using credit/debit card.Please DONOT send
 any cheques/drafts for hotel booking to the
@@ -146,6 +166,7 @@ organizers."/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
         android:orientation="horizontal">
 
         <ImageView
@@ -155,6 +176,8 @@ organizers."/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="@color/black"
             android:text="The organizers will not have any
 responsibility regarding the service being
 offered by the hotels."/>
@@ -163,6 +186,7 @@ offered by the hotels."/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
         android:orientation="vertical">
 
     <LinearLayout
@@ -177,6 +201,8 @@ offered by the hotels."/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15dp"
             android:text="Anyone reading extra beds can contact the "/>
     </LinearLayout>
         <LinearLayout
@@ -187,18 +213,22 @@ offered by the hotels."/>
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
+                android:textColor="@color/black"
+                android:textSize="15dp"
                 android:text="organizers at"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/blue1"
                 android:layout_marginLeft="2dp"
+                android:textSize="15dp"
                 android:text="iria2019@yahoo.com"/>
         </LinearLayout>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
         android:orientation="horizontal">
 
         <ImageView
@@ -208,12 +238,15 @@ offered by the hotels."/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="@color/black"
             android:text="Shuttle bus service will be provided for the
 delegates from select(not all)hotels."/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
         android:orientation="horizontal">
 
         <ImageView
@@ -223,6 +256,8 @@ delegates from select(not all)hotels."/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="14dp"
             android:text="Delegatesre are advised to visit the websites of
 the respective hotels and check for facilities
 before making any reservations."/>

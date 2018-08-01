@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?><!-- suppress ALL --><!-- suppress ALL -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.brandappz.dhfl.event">
+    package="com.brandappz.alpcord.events">
 
     <!-- Google Maps related permissions -->
     <permission
-        android:name="com.brandappz.dhfl.event.permission.MAPS_RECEIVE"
+        android:name="com.brandappz.alpcord.events.permission.MAPS_RECEIVE"
         android:protectionLevel="signature" />
     <!-- Creates a custom permission so only this app can receive its messages. -->
     <permission
-        android:name="com.brandappz.dhfl.event.permission.C2D_MESSAGE"
+        android:name="com.brandappz.alpcord.events.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="com.brandappz.dhfl.event.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.brandappz.alpcord.events.permission.MAPS_RECEIVE" />
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
@@ -29,7 +29,7 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="com.brandappz.dhfl.event.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.brandappz.alpcord.events.permission.C2D_MESSAGE" />
     <!-- This app has permission to register and receive data message. -->
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
     <uses-permission android:name="com.example.gcm.permission.C2D_MESSAGE" />
@@ -71,21 +71,21 @@
             android:parentActivityName=".activities.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.brandappz.dhfl.event.activities.MainActivity" />
+                android:value=".activities.MainActivity" />
         </activity>
         <activity
             android:name=".activities.details.SpeakerActivity"
             android:parentActivityName=".activities.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.brandappz.dhfl.event.activities.MainActivity" />
+                android:value=".activities.MainActivity" />
         </activity>
         <activity
             android:name=".activities.details.LocationsActivity"
             android:parentActivityName=".activities.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.brandappz.dhfl.event.activities.MainActivity" />
+                android:value="com.brandappz.alpcord.events.activities.MainActivity" />
         </activity>
 
         <receiver
@@ -159,8 +159,9 @@
         <activity android:name=".activities.CheckIn" />
         <!-- <activity android:name=".fragments.QuizFragment" /> -->
         <activity android:name=".activities.QuizActivity" />
-        <activity android:name=".activities.OrganizingCommitteeActivity"></activity>
-        <activity android:name=".activities.MenuActivity"></activity>
+        <activity android:name=".activities.OrganizingCommitteeActivity" />
+        <activity android:name=".activities.MenuActivity" />
+        <activity android:name=".activities.AbstractActivity"></activity>
     </application>
 
 </manifest>

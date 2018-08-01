@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#B1FFFFFF"
-    tools:context="com.brandappz.dhfl.event.fragments.QuizFragment">
+    tools:context="com.brandappz.alpcord.events.fragments.QuizFragment">
     <RelativeLayout
         android:id="@+id/ss"
         android:visibility="gone"

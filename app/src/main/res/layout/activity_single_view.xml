@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     android:background="@android:color/black"
-    tools:context="com.brandappz.dhfl.event.fragments.SingleViewActivity">
+    tools:context="com.brandappz.alpcord.events.fragments.SingleViewActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
